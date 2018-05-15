@@ -2,7 +2,7 @@
 airport-practical
 
 
-Airport
+# Airport
 
 In your IDE of choice, create a new JavaScript file named airport.js and make it so that all code written in the file follows JS strict mode.
 
@@ -69,15 +69,14 @@ Airport: Nikola Tesla, total passengers: 4
 
 
 
-Hints
+# Hints
 List is a synonym for array, so when we say a list of flights, it’s actually an array of flight objects   
 Use JS built-in Date()object to parse input date
 Use \t and \n special strings to format output 
 Use built-in String methods to transform text from lowercase to uppercase
 Use Array’s built-in methods to add and remove elements from an array
 
-
-Extra
+# Extra
 Modify Flight getData method to return a formatted string as date and relation (as the first and the last consonant of the starting location - the first and the last consonant of the destination location) of the current flight.
 "Belgrade - Paris", "25.09.2017" -> 25.09.2017 BD - PS
 
